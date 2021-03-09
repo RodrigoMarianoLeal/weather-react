@@ -1,0 +1,66 @@
+form input[name="cidade"],
+form input[name="pais"]{
+    background-color: #282a36;
+    color:  #F6B352  !important;
+    border: 0;
+    border-bottom: 2px solid  #F6B352  !important;
+    border-radius: 0;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6) !important;
+}
+form{
+    padding-top: 1%;
+    padding-left: 4%;
+    padding-right: 0%;
+    
+}
+form input::-webkit-input-placeholder{
+    color:  #F6B352  !important;
+}
+form input:focus{
+    background-color: #44475a !important;
+    color:  #F6B352  !important;
+    border-color:  #F6B352  !important;
+}
+form button{
+    background-color:  #44475a !important;
+    color:  #F6B352  !important;
+    border-color:  #F6B352  !important;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6) !important;
+}
+form input item{
+    background-color:  #44475a !important;
+    color:  #F6B352  !important;
+    border-color:  #F6B352  !important;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6) !important;
+}
+.cont{
+    background-color: #383A3F !important;
+    color: white !important;
+    border-color: #F6B352  !important;
+    border-width: 4px !important;
+    border-radius: 3% !important;
+    border-style: inset !important;
+    box-shadow: 0 8px 16px 5px rgba(0,0,0,0.5) !important;
+   
+}
+.contein{
+    max-height: 60vh !important;
+}
+
+.dropdown-menu{
+    height: 50vh;
+    overflow-y: scroll;
+    background-color: #383A3F !important;
+    color:  #F6B352  !important;
+    border: 2px 2px 2px 2px #F6B352 ;
+}
+.dropdown-item{
+    color:  #F6B352  !important;
+    border: 2px 2px 2px 2px #F6B352 ;
+}
+.dropdown-menu:focus{
+    background-color: #44475a !important;
+}
+.dropdown-item:hover{
+    background-color: #44475a !important;
+}

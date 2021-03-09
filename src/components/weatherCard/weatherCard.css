@@ -1,0 +1,63 @@
+.tempAtual{
+    font-size: 5vw  !important;
+    font-family: 'Fira code' !important;
+    color: #F6B352  !important ;
+    text-shadow: 5px 5px 5px black !important;
+    
+}
+.titulo{
+    font-size:8vmin  !important;
+    font-family: 'Fira code' !important;
+    color: #F6B352  !important ;
+ text-shadow: 5px 5px 5px black !important;}
+
+ .contein{
+    max-height: 60vh !important;
+}
+
+ .pais{
+    font-size:2.5vmin  !important;
+    font-family: 'Fira code' !important;
+    color: #F6B352  !important ;
+ text-shadow: 5px 5px 5px black !important;}
+
+.minMax {
+    font-size: 3vw  !important;
+    font-family: 'Fira code' !important;
+    color: #F6B352  !important ;
+    text-shadow: 4px 4px 4px black !important;
+}
+.legendas{
+    color: #F6B352  !important ;
+    font-size: 1vw !important;
+    text-shadow: 2px 2px 2px black !important;
+}
+.icon{
+    color: #F6B352  !important ;
+    text-shadow: 10px 10px 10px black !important;
+}
+.logo{
+    font-size: 10vw !important; 
+     color: #F6B352 !important;
+     padding-bottom: 50px;
+     padding-top: 50px;
+     text-shadow: 10px 10px 10px black !important;
+}
+.Card.title{
+    font-size: 3vw  !important;
+    font-family: 'Fira code' !important;
+    text-shadow: 0 8px 16px 0 rgba(0,0,0,0.2) !important;
+
+}
+
+.cardBackground{
+    background-color: #383A3F  !important;
+    text-shadow: 0 8px 16px 0 rgba(0,0,0,0.2) !important;
+    
+}
+.Card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2) !important;
+  }
+.Card{
+    height: 100% !important;
+}

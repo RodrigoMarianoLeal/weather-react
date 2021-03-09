@@ -1,25 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+import React, {useState, useContext} from 'react';
+import WheatherForm from '../src/components/WheatherForm'
+import WheatherCard from '../src/components/weatherCard'
+import { Col } from 'react-bootstrap';
+import CardContextProvider, {CardContext} from './cardContextProvider'; 
+import './App.css'
 
 function App() {
+const [showCard, setshowCard] = useState(false);
+const [cardInfo, setCardInfo] = useContext(CardContext);
+
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+       <div className="cabecalho">
+         <i className="wi wi-snow logotop"> Weather</i>
+         
+       </div>
+      <Col  >
+     
+      <WheatherForm setShowCard={setshowCard} showCard={showCard}></WheatherForm>,
+       {showCard ? <WheatherCard></WheatherCard> : null}
+          
+        
+      </Col>
     </div>
   );
 }
 
-export default App;
+export default () => (
+  <CardContextProvider>
+    <App />
+  </CardContextProvider>
+);
