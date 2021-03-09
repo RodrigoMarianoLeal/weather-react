@@ -27,6 +27,7 @@ const [showCard, setshowCard] = useState(false);
   );
 }
 
+// eslint-disable-next-line import/no-anonymous-default-export
 export default () => (
   <CardContextProvider>
     <App />

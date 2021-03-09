@@ -91,7 +91,7 @@ export default function WheatherForm({ showCard, setShowCard }) {
                         <Form.Group>
                             <DropdownButton id="dropdown-basic-button" title={form.labelPais || "Country"} onSelect={setCountry}>
                                 
-                                {Object.entries(paises).map((key, valor) =>  <Dropdown.Item eventKey={key[0]} >{key[1]}</Dropdown.Item> )}
+                                {Object.entries(paises).map((key, valor) =>  <Dropdown.Item key={valor} eventKey={key[0]} >{key[1]}</Dropdown.Item> )}
                                 
                             </DropdownButton>
                         </Form.Group>
