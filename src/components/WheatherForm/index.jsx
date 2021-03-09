@@ -14,6 +14,7 @@ export default function WheatherForm({ showCard, setShowCard }) {
     };
 
 
+    // eslint-disable-next-line no-unused-vars
     const [cardInfo, setCardInfo] = useContext(CardContext);
 
     const { REACT_APP_API_KEY: API_KEY } = process.env;
